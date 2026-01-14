@@ -1,0 +1,39 @@
+# --- Datasets ---
+# Exclude the large image datasets as per Chapter 1.4
+Assignment4_datasets/
+fakes_dataset/
+synthetic_dataset/
+*.zip
+*.tar
+.idea/
+*.xml
+
+# --- Model Checkpoints ---
+# Exclude saved model weights (Question 23/Bonus)
+checkpoints/*.pt
+checkpoints/*.pth
+
+# --- Outputs and Figures ---
+# The trainer logs results to these folders
+out/
+figures/
+*.json
+
+# --- Python / Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+.conda/
+
+# --- IDE Settings ---
+.idea/
+.vscode/
+.DS_Store
+
+# --- Assignment Specifics ---
+# Exclude system-specific executable scripts if necessary
+# run_me.sh
